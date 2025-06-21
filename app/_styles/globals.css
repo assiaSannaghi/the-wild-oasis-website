@@ -38,3 +38,22 @@
   --rdp-background-color: theme("colors.accent.600") !important;
   margin: 0 !important;
 }
+
+.rdp-root {
+  --rdp-accent-color: theme("colors.accent.500") !important;
+  --rdp-background-color: theme("colors.accent.600") !important;
+  --rdp-range_middle-background-color: theme("colors.accent.600") !important;
+  margin: 0 !important;
+}
+
+.rdp-months {
+  flex-wrap: nowrap !important;
+}
+
+.rdp-root {
+  padding-top: 11px !important;
+}
+
+.rdp-month_caption {
+  justify-content: center !important;
+}
